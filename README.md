@@ -1,4 +1,4 @@
-# Mattermost Virt Lab
+# Dynamic virtlist
 
 This is a separate, experimental project for rewriting the Mattermost message virtualization library while keeping the current implementation available as a behavior oracle.
 
