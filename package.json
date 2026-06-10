@@ -1,0 +1,35 @@
+{
+  "name": "@mattermost/virt-lab",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Experimental Mattermost virtualized message list rewrite lab.",
+  "scripts": {
+    "build": "webpack --config webpack.config.cjs",
+    "dev": "webpack serve --config webpack.config.cjs --mode development",
+    "test": "node scripts/run-playwright.mjs",
+    "test:headed": "node scripts/run-playwright.mjs --headed"
+  },
+  "dependencies": {
+    "lodash": "4.18.1",
+    "memoize-one": "6.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.28.5",
+    "@babel/preset-env": "7.29.2",
+    "@babel/preset-react": "7.28.5",
+    "@babel/preset-typescript": "7.28.5",
+    "@playwright/test": "1.59.1",
+    "@types/react": "18.2.64",
+    "@types/react-dom": "18.2.25",
+    "babel-loader": "9.1.2",
+    "css-loader": "6.7.3",
+    "html-webpack-plugin": "5.5.0",
+    "style-loader": "4.0.0",
+    "typescript": "5.6.3",
+    "webpack": "5.106.2",
+    "webpack-cli": "6.0.1",
+    "webpack-dev-server": "5.2.2"
+  }
+}
